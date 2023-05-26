@@ -10,6 +10,8 @@ La définition du point d'entrée qui nous intéresse (`POST` sur `/capture`) es
 
 Nous nous sommes inspiré de l'object event mise en exemple du site https://gs1.org, disponible sur https://ref.gs1.org/docs/epcis/examples/object_event_all_possible_fields.jsonld
 
+Il est également possible de directement executer le script `curl_request.sh` (depuis un terminal Bash) pour effectuer la requête directement.
+
 Voici notre évènement, à mettre dans le corps de la requête sur le serveur Swagger :
 
 ```json
