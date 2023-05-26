@@ -1,6 +1,7 @@
 #!/bin/bash
 
-curl --request POST \
+curl -i \
+  --request POST \
   --url http://localhost:8080/capture \
   --header 'Content-Type: application/json' \
   --data '{
