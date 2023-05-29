@@ -21,13 +21,12 @@ curl -i \
         "type": "ObjectEvent",
         "action": "OBSERVE",
         "bizStep": "receiving",
-        "disposition": "in_transit",
+        "disposition": "container_open",
         "epcList": [
-          "urn:epc:id:sgtin:0614141.107346.2017",
-          "urn:epc:id:sgtin:0614141.107346.2018"
+          "urn:epc:id:sgtin:0614141.107346.2017"
         ],
-        "eventTime": "2005-04-03T20:33:31.116000-06:00",
-        "eventTimeZoneOffset": "-06:00",
+        "eventTime": "2023-05-23T20:33:31.116000-02:00",
+        "eventTimeZoneOffset": "+02:00",
         "readPoint": {
           "id": "urn:epc:id:sgln:0614141.07346.1234"
         },
@@ -36,10 +35,14 @@ curl -i \
             "type": "po",
             "bizTransaction": "http://transaction.acme.com/po/12345678"
           }
-        ]
+        ],
+        "destination": {
+          "id": "urn:epc:id:sgln:0614141.07346.5678"
+        },
+        "source": {
+          "id": "urn:epc:id:sgln:0614141.07346.1234"
+        }
       }
     ]
   }
-}
-
-'
+}'
