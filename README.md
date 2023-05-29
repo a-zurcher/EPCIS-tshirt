@@ -11,6 +11,8 @@ Pour afficher l'interface Swagger UI :
 ```bash
 open http://localhost:8080/docs
 ```
+Faire une requête POST sur l'adress http://localhost:8090/capture
+Copier le message du  point 3 dans le body de la requête 
 
 Il est également possible d'exécuter le script `curl_request.sh` (depuis un terminal Bash) pour effectuer la requête POST, sans passer par un client lourd.
 
