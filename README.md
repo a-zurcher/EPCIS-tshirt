@@ -94,6 +94,9 @@ open http://localhost:8080/docs
 
 
 La définition du point d'entrée qui nous intéresse (`POST` sur `/capture`) est spécifié à la ligne 389 du document `api/openapi.yaml`
+
+![image](https://github.com/a-zurcher/swagger-epcis/assets/126246917/2dd40250-77c1-45f1-9bed-15127356afcb)
+
 ## Event
 
 
