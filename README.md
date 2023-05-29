@@ -133,6 +133,7 @@ Faire une requête POST sur l'adress http://localhost:8080/capture
 Copier le message du  point 3 dans le body de la requête 
 
 Il est également possible d'exécuter le script `curl_request.sh` (depuis un terminal Bash) pour effectuer la requête POST, sans passer par un client lourd.
+
 ![image](https://github.com/a-zurcher/swagger-epcis/assets/126246917/beb323de-9687-4426-9fb6-29c6a3bb0694)
 
 
