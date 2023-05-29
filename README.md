@@ -1,3 +1,7 @@
+# Technologies utilisées
+
+![Swagger UI (Backend)(1)](https://github.com/a-zurcher/swagger-epcis/assets/126246917/e2934ec9-0102-4495-a19b-ed362b578489)
+
 # swagger-epcis
 
 Utilise comme base la définition d'interface EPCIS `openapi.json`, téléchargeable sur https://ref.gs1.org/standards/epcis/artefacts.
