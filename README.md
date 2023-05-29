@@ -145,6 +145,12 @@ On peut remarquer que nous recevons un code 200 en retour de notre requête qui 
 
 On peut remarquer que nous recevons un code 200 en retour de notre requête qui valide le succès de notre requête.
 #### Négatif
+Pour tester l'intégrité des champs standardisés, nous allons modifier la valeur du champs disposition ("sellable_not_accessible" -> "livraison reçu")
 ##### Client lourd
+![image](https://github.com/a-zurcher/swagger-epcis/assets/126246917/055c3287-3520-46d5-95e2-8ff6f5646ba6)
 
+On remarque que l'on reçoit un message d'erreur dont un code 400 qui confirme cette erreur.
 ##### Bash
+![image](https://github.com/a-zurcher/swagger-epcis/assets/126246917/3695e10e-0df6-430c-b43e-c91132a1a0b2)
+
+On remarque que l'on reçoit un message d'erreur dont un code 400 qui confirme cette erreur.
