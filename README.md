@@ -129,4 +129,17 @@ La définition du point d'entrée qui nous intéresse (`POST` sur `/capture`) es
 
 ![image](https://github.com/a-zurcher/swagger-epcis/assets/126246917/2dd40250-77c1-45f1-9bed-15127356afcb)
 
+Faire une requête POST sur l'adress http://localhost:8080/capture
+Copier le message du  point 3 dans le body de la requête 
+
 Il est également possible d'exécuter le script `curl_request.sh` (depuis un terminal Bash) pour effectuer la requête POST, sans passer par un client lourd.
+
+### Résultats
+#### Positif
+##### Client lourd
+
+##### Bash
+#### Négatif
+##### Client lourd
+
+##### Bash
