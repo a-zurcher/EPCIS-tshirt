@@ -1,4 +1,4 @@
-## Quick Start
+## 1. Quick Start
 
 Pour lancer le serveur, exécutez :
 
@@ -14,12 +14,12 @@ open http://localhost:8080/docs
 
 Il est également possible d'exécuter le script `curl_request.sh` (depuis un terminal Bash) pour effectuer la requête POST, sans passer par un client lourd.
 
-## Technologies utilisées
+## 2. Technologies utilisées
 
 ![Swagger UI (Backend)](https://github.com/a-zurcher/swagger-epcis/assets/126246917/e2934ec9-0102-4495-a19b-ed362b578489)
 
 
-## Récupérer un fichier standardisé
+## 3. Récupérer un fichier standardisé
 
 Nous nous sommes inspiré de l'_object event_ mise en exemple sur le site https://gs1.org, disponible sur https://ref.gs1.org/docs/epcis/examples/object_event_all_possible_fields.jsonld
 
@@ -117,7 +117,7 @@ Le lieu de départ, ici l'entrepôt du grossiste d'où provient les t-shirts.
 
 Le lieu de destination. Ici, c'est le lieu de livraison (notre entrepôt).
 
-## Fonctionnement du serveur
+## 4. Fonctionnement du serveur
 
 Utilise comme base la définition d'interface EPCIS `openapi.json`, téléchargeable sur https://ref.gs1.org/standards/epcis/artefacts.
 
