@@ -38,11 +38,10 @@ Voici notre évènement, à mettre dans le corps de la requête sur le serveur S
         "bizStep": "receiving",
         "disposition": "in_transit",
         "epcList": [
-          "urn:epc:id:sgtin:0614141.107346.2017",
-          "urn:epc:id:sgtin:0614141.107346.2018"
+          "urn:epc:id:sgtin:0614141.107346.2017"
         ],
-        "eventTime": "2005-04-03T20:33:31.116000-06:00",
-        "eventTimeZoneOffset": "-06:00",
+        "eventTime": "2023-05-23T20:33:31.116000-02:00",
+        "eventTimeZoneOffset": "+02:00",
         "readPoint": {
           "id": "urn:epc:id:sgln:0614141.07346.1234"
         },
@@ -60,13 +59,17 @@ Voici notre évènement, à mettre dans le corps de la requête sur le serveur S
 ### Champs standards
 
 #### eventTime
+Indique la date et l'heure de l'événement.
+Dans notre cas, ce serait le moment où l'on reçoit le t-shirt du grossiste.
 
 #### eventTimeZoneOffset
-
+Indique le décalage horaire de l'événement par rapport à l'heure UTC.
+Nous avons donc +2 car nous sommes en Suisse.
 #### epcList
-
+Indique une liste d'identifiants EPC (Electronic Product Code) représentant les objets liés à l'événement.
+Un identifiant correspond à un t shirt. Dans notre cas, ou nous recevons des tshirts un par un, il n'y a qu'un seul identifiant dans cette liste
 #### action
-
+Indique l'action liée à l'événement, ici "OBSERVE" qui signifie une observation.
 #### bizStep
 
 #### disposition
