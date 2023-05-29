@@ -21,7 +21,7 @@ curl -i \
         "type": "ObjectEvent",
         "action": "OBSERVE",
         "bizStep": "receiving",
-        "disposition": "container_open",
+        "disposition": "sellable_not_accessible",
         "epcList": [
           "urn:epc:id:sgtin:0614141.107346.2017"
         ],
