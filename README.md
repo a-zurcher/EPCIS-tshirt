@@ -137,7 +137,9 @@ Il est également possible d'exécuter le script `curl_request.sh` (depuis un te
 ### Résultats
 #### Positif
 ##### Client lourd
+![image](https://github.com/a-zurcher/swagger-epcis/assets/126246917/a439e75b-81ae-45f3-bb42-a1f0b926dd89)
 
+On peut remarquer que nous recevons un code 200 en retour de notre requête
 ##### Bash
 #### Négatif
 ##### Client lourd
