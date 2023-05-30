@@ -209,21 +209,15 @@ curl -i \
 
 ### Résultats
 #### Positif
-##### Client lourd
-![image](https://github.com/a-zurcher/swagger-epcis/assets/126246917/a439e75b-81ae-45f3-bb42-a1f0b926dd89)
 
-On peut remarquer que nous recevons un code 200 en retour de notre requête qui valide le succès de notre requête.
-##### Bash
-![image](https://github.com/a-zurcher/swagger-epcis/assets/126246917/986029ef-b7a2-4ad0-9d9b-63ef0b065d44)
+La requête du message EPCIS comme nous l'avons écris plus haut dans ce document nous retourne un code HTTP de 200, ce qui valide le succès de notre requête.
 
-On peut remarquer que nous recevons un code 200 en retour de notre requête qui valide le succès de notre requête.
+Ceci peut être testé en exécutant le script `curl_request.sh` sur un terminal Bash.
+
 #### Négatif
-Pour tester l'intégrité des champs standardisés, nous allons modifier la valeur du champs disposition ("sellable_not_accessible" -> "livraison reçu")
-##### Client lourd
-![image](https://github.com/a-zurcher/swagger-epcis/assets/126246917/055c3287-3520-46d5-95e2-8ff6f5646ba6)
+
+Pour tester l'intégrité des champs standardisés, nous avons modifier la valeur du champs disposition ("`sellable_not_accessible`" à  "`livraison reçu`")
 
 On remarque que l'on reçoit un message d'erreur dont un code 400 qui confirme cette erreur.
-##### Bash
-![image](https://github.com/a-zurcher/swagger-epcis/assets/126246917/3695e10e-0df6-430c-b43e-c91132a1a0b2)
 
-On remarque que l'on reçoit un message d'erreur dont un code 400 qui confirme cette erreur.
+Le corps du message de retour contient l'erreur complète selon le standard EPCIS (voir fichier `message_erreur.json`).
