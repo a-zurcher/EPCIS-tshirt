@@ -1,3 +1,14 @@
+## 0. Contexte
+Dans ce POC nous prenons le role dans d'un logisticien d'un magasin d'habit (exemple: zara, h&m ...).
+
+Nous recevons une livraison contenant un t-shirt.
+
+Nous scannons la livraison et récupérons donc un message EPCIS.
+
+Lors du scan, le message est envoyé au serveur et il est analysé.
+
+On reçoit ensuite une réponse, si le message a pu être lu ou pas.
+
 ## 1. Quick Start
 
 Pour lancer le serveur, exécutez :
