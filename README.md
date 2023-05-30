@@ -61,9 +61,11 @@ Voici notre évènement, à mettre dans le corps de la requête sur le serveur S
           }
         ],
         "destination": {
+          "type":"location",
           "id": "urn:epc:id:sgln:0614141.07346.5678"
         },
         "source": {
+          "type":"location",
           "id": "urn:epc:id:sgln:0614141.07346.1234"
         }
       }
