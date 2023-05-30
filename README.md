@@ -117,9 +117,13 @@ Une liste des transactions commerciales (_Purchase Order_, `po`). Dans notre cas
 
 Le lieu de départ, ici l'entrepôt du grossiste d'où provient les t-shirts.
 
+On précise le type pour indiquer que c'est un lieu physique. La valeur du champs (location) fait parti d'une énumération (owning_party, possesing_party, location)
+
 #### `destination`
 
 Le lieu de destination. Ici, c'est le lieu de livraison (notre entrepôt).
+
+On précise le type pour indiquer que c'est un lieu physique. La valeur du champs (location) fait parti d'une énumération (owning_party, possesing_party, location)
 
 ## 4. Fonctionnement du serveur
 
