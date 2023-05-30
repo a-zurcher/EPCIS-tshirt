@@ -214,10 +214,35 @@ La requête du message EPCIS comme nous l'avons écris plus haut dans ce documen
 
 Ceci peut être testé en exécutant le script `curl_request.sh` sur un terminal Bash.
 
+Voici l'affichage du retour du serveur :
+
+```bash
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json
+Date: Tue, 30 May 2023 18:59:48 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+```
+
 #### ➖ Négatif
 
 Pour tester l'intégrité des champs standardisés, nous avons modifier la valeur du champs disposition ("`sellable_not_accessible`" à  "`livraison reçu`")
 
 On remarque que l'on reçoit un message d'erreur dont un code 400 qui confirme cette erreur.
+
+Voici l'affichage du retour du serveur :
+
+```bash
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 827
+ETag: W/"33b-Gj0ghfDCTSfExDMgN0gMQSuNazM"
+Date: Tue, 30 May 2023 19:01:32 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+```
 
 Le corps du message de retour contient l'erreur complète selon le standard EPCIS (voir fichier [`message_erreur.json`](/message_erreur.json).
