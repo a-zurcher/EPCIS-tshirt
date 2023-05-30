@@ -1,0 +1,235 @@
+{
+  "message": "request.body.type should be equal to one of the allowed values: EPCISQueryDocument, request.body.epcisBody should have required property 'queryResults', request.body.epcisBody.eventList[0].disposition should match format \"uri\", request.body.epcisBody.eventList[0].disposition should be equal to one of the allowed values: active, container_closed, damaged, destroyed, dispensed, disposed, encoded, expired, in_progress, in_transit, inactive, no_pedigree_match, non_sellable_other, partially_dispensed, recalled, reserved, retail_sold, returned, sellable_accessible, sellable_not_accessible, stolen, unknown, available, completeness_verified, completeness_inferred, conformant, container_open, mismatch_instance, mismatch_class, mismatch_quantity, needs_replacement, non_conformant, unavailable, request.body.epcisBody.eventList[0].disposition should match some schema in anyOf, request.body.epcisBody.eventList[0].type should be equal to one of the allowed values: AggregationEvent, request.body.epcisBody.eventList[0].disposition should match format \"uri\", request.body.epcisBody.eventList[0].disposition should be equal to one of the allowed values: active, container_closed, damaged, destroyed, dispensed, disposed, encoded, expired, in_progress, in_transit, inactive, no_pedigree_match, non_sellable_other, partially_dispensed, recalled, reserved, retail_sold, returned, sellable_accessible, sellable_not_accessible, stolen, unknown, available, completeness_verified, completeness_inferred, conformant, container_open, mismatch_instance, mismatch_class, mismatch_quantity, needs_replacement, non_conformant, unavailable, request.body.epcisBody.eventList[0].disposition should match some schema in anyOf, request.body.epcisBody.eventList[0] should have required property 'childEPCs', request.body.epcisBody.eventList[0] should have required property 'childQuantityList', request.body.epcisBody.eventList[0].action should match pattern \"^DELETE$\", request.body.epcisBody.eventList[0] should match some schema in anyOf, request.body.epcisBody.eventList[0].type should be equal to one of the allowed values: TransactionEvent, request.body.epcisBody.eventList[0].disposition should match format \"uri\", request.body.epcisBody.eventList[0].disposition should be equal to one of the allowed values: active, container_closed, damaged, destroyed, dispensed, disposed, encoded, expired, in_progress, in_transit, inactive, no_pedigree_match, non_sellable_other, partially_dispensed, recalled, reserved, retail_sold, returned, sellable_accessible, sellable_not_accessible, stolen, unknown, available, completeness_verified, completeness_inferred, conformant, container_open, mismatch_instance, mismatch_class, mismatch_quantity, needs_replacement, non_conformant, unavailable, request.body.epcisBody.eventList[0].disposition should match some schema in anyOf, request.body.epcisBody.eventList[0].type should be equal to one of the allowed values: TransformationEvent, request.body.epcisBody.eventList[0].disposition should match format \"uri\", request.body.epcisBody.eventList[0].disposition should be equal to one of the allowed values: active, container_closed, damaged, destroyed, dispensed, disposed, encoded, expired, in_progress, in_transit, inactive, no_pedigree_match, non_sellable_other, partially_dispensed, recalled, reserved, retail_sold, returned, sellable_accessible, sellable_not_accessible, stolen, unknown, available, completeness_verified, completeness_inferred, conformant, container_open, mismatch_instance, mismatch_class, mismatch_quantity, needs_replacement, non_conformant, unavailable, request.body.epcisBody.eventList[0].disposition should match some schema in anyOf, request.body.epcisBody.eventList[0] should have required property 'inputEPCList', request.body.epcisBody.eventList[0] should have required property 'inputQuantityList', request.body.epcisBody.eventList[0] should match some schema in anyOf, request.body.epcisBody.eventList[0] should have required property 'outputEPCList', request.body.epcisBody.eventList[0] should have required property 'outputQuantityList', request.body.epcisBody.eventList[0] should match some schema in anyOf, request.body.epcisBody.eventList[0] should have required property 'transformationID', request.body.epcisBody.eventList[0] should have required property 'inputEPCList', request.body.epcisBody.eventList[0] should have required property 'inputQuantityList', request.body.epcisBody.eventList[0] should have required property 'outputEPCList', request.body.epcisBody.eventList[0] should have required property 'outputQuantityList', request.body.epcisBody.eventList[0] should match some schema in anyOf, request.body.epcisBody.eventList[0] should match some schema in anyOf, request.body.epcisBody.eventList[0].type should be equal to one of the allowed values: AssociationEvent, request.body.epcisBody.eventList[0] should have required property 'parentID', request.body.epcisBody.eventList[0].disposition should match format \"uri\", request.body.epcisBody.eventList[0].disposition should be equal to one of the allowed values: active, container_closed, damaged, destroyed, dispensed, disposed, encoded, expired, in_progress, in_transit, inactive, no_pedigree_match, non_sellable_other, partially_dispensed, recalled, reserved, retail_sold, returned, sellable_accessible, sellable_not_accessible, stolen, unknown, available, completeness_verified, completeness_inferred, conformant, container_open, mismatch_instance, mismatch_class, mismatch_quantity, needs_replacement, non_conformant, unavailable, request.body.epcisBody.eventList[0].disposition should match some schema in anyOf, request.body.epcisBody.eventList[0] should have required property 'childEPCs', request.body.epcisBody.eventList[0] should have required property 'childQuantityList', request.body.epcisBody.eventList[0].action should match pattern \"^DELETE$\", request.body.epcisBody.eventList[0] should match some schema in anyOf, request.body.epcisBody.eventList[0].type should match format \"uri\", request.body.epcisBody.eventList[0] should match exactly one schema in oneOf, request.body should match exactly one schema in oneOf",
+  "errors": [
+    {
+      "path": ".body.type",
+      "message": "should be equal to one of the allowed values: EPCISQueryDocument",
+      "errorCode": "enum.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.queryResults",
+      "message": "should have required property 'queryResults'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should match format \"uri\"",
+      "errorCode": "format.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should be equal to one of the allowed values: active, container_closed, damaged, destroyed, dispensed, disposed, encoded, expired, in_progress, in_transit, inactive, no_pedigree_match, non_sellable_other, partially_dispensed, recalled, reserved, retail_sold, returned, sellable_accessible, sellable_not_accessible, stolen, unknown, available, completeness_verified, completeness_inferred, conformant, container_open, mismatch_instance, mismatch_class, mismatch_quantity, needs_replacement, non_conformant, unavailable",
+      "errorCode": "enum.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should match some schema in anyOf",
+      "errorCode": "anyOf.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].type",
+      "message": "should be equal to one of the allowed values: AggregationEvent",
+      "errorCode": "enum.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should match format \"uri\"",
+      "errorCode": "format.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should be equal to one of the allowed values: active, container_closed, damaged, destroyed, dispensed, disposed, encoded, expired, in_progress, in_transit, inactive, no_pedigree_match, non_sellable_other, partially_dispensed, recalled, reserved, retail_sold, returned, sellable_accessible, sellable_not_accessible, stolen, unknown, available, completeness_verified, completeness_inferred, conformant, container_open, mismatch_instance, mismatch_class, mismatch_quantity, needs_replacement, non_conformant, unavailable",
+      "errorCode": "enum.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should match some schema in anyOf",
+      "errorCode": "anyOf.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].childEPCs",
+      "message": "should have required property 'childEPCs'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].childQuantityList",
+      "message": "should have required property 'childQuantityList'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].action",
+      "message": "should match pattern \"^DELETE$\"",
+      "errorCode": "pattern.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0]",
+      "message": "should match some schema in anyOf",
+      "errorCode": "anyOf.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].type",
+      "message": "should be equal to one of the allowed values: TransactionEvent",
+      "errorCode": "enum.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should match format \"uri\"",
+      "errorCode": "format.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should be equal to one of the allowed values: active, container_closed, damaged, destroyed, dispensed, disposed, encoded, expired, in_progress, in_transit, inactive, no_pedigree_match, non_sellable_other, partially_dispensed, recalled, reserved, retail_sold, returned, sellable_accessible, sellable_not_accessible, stolen, unknown, available, completeness_verified, completeness_inferred, conformant, container_open, mismatch_instance, mismatch_class, mismatch_quantity, needs_replacement, non_conformant, unavailable",
+      "errorCode": "enum.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should match some schema in anyOf",
+      "errorCode": "anyOf.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].type",
+      "message": "should be equal to one of the allowed values: TransformationEvent",
+      "errorCode": "enum.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should match format \"uri\"",
+      "errorCode": "format.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should be equal to one of the allowed values: active, container_closed, damaged, destroyed, dispensed, disposed, encoded, expired, in_progress, in_transit, inactive, no_pedigree_match, non_sellable_other, partially_dispensed, recalled, reserved, retail_sold, returned, sellable_accessible, sellable_not_accessible, stolen, unknown, available, completeness_verified, completeness_inferred, conformant, container_open, mismatch_instance, mismatch_class, mismatch_quantity, needs_replacement, non_conformant, unavailable",
+      "errorCode": "enum.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should match some schema in anyOf",
+      "errorCode": "anyOf.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].inputEPCList",
+      "message": "should have required property 'inputEPCList'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].inputQuantityList",
+      "message": "should have required property 'inputQuantityList'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0]",
+      "message": "should match some schema in anyOf",
+      "errorCode": "anyOf.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].outputEPCList",
+      "message": "should have required property 'outputEPCList'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].outputQuantityList",
+      "message": "should have required property 'outputQuantityList'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0]",
+      "message": "should match some schema in anyOf",
+      "errorCode": "anyOf.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].transformationID",
+      "message": "should have required property 'transformationID'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].inputEPCList",
+      "message": "should have required property 'inputEPCList'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].inputQuantityList",
+      "message": "should have required property 'inputQuantityList'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].outputEPCList",
+      "message": "should have required property 'outputEPCList'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].outputQuantityList",
+      "message": "should have required property 'outputQuantityList'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0]",
+      "message": "should match some schema in anyOf",
+      "errorCode": "anyOf.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0]",
+      "message": "should match some schema in anyOf",
+      "errorCode": "anyOf.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].type",
+      "message": "should be equal to one of the allowed values: AssociationEvent",
+      "errorCode": "enum.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].parentID",
+      "message": "should have required property 'parentID'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should match format \"uri\"",
+      "errorCode": "format.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should be equal to one of the allowed values: active, container_closed, damaged, destroyed, dispensed, disposed, encoded, expired, in_progress, in_transit, inactive, no_pedigree_match, non_sellable_other, partially_dispensed, recalled, reserved, retail_sold, returned, sellable_accessible, sellable_not_accessible, stolen, unknown, available, completeness_verified, completeness_inferred, conformant, container_open, mismatch_instance, mismatch_class, mismatch_quantity, needs_replacement, non_conformant, unavailable",
+      "errorCode": "enum.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].disposition",
+      "message": "should match some schema in anyOf",
+      "errorCode": "anyOf.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].childEPCs",
+      "message": "should have required property 'childEPCs'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].childQuantityList",
+      "message": "should have required property 'childQuantityList'",
+      "errorCode": "required.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].action",
+      "message": "should match pattern \"^DELETE$\"",
+      "errorCode": "pattern.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0]",
+      "message": "should match some schema in anyOf",
+      "errorCode": "anyOf.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0].type",
+      "message": "should match format \"uri\"",
+      "errorCode": "format.openapi.validation"
+    },
+    {
+      "path": ".body.epcisBody.eventList[0]",
+      "message": "should match exactly one schema in oneOf",
+      "errorCode": "oneOf.openapi.validation"
+    },
+    {
+      "path": ".body",
+      "message": "should match exactly one schema in oneOf",
+      "errorCode": "oneOf.openapi.validation"
+    }
+  ]
+}
