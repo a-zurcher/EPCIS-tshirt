@@ -220,4 +220,4 @@ Pour tester l'intégrité des champs standardisés, nous avons modifier la valeu
 
 On remarque que l'on reçoit un message d'erreur dont un code 400 qui confirme cette erreur.
 
-Le corps du message de retour contient l'erreur complète selon le standard EPCIS (voir fichier `message_erreur.json`).
+Le corps du message de retour contient l'erreur complète selon le standard EPCIS (voir fichier [`message_erreur.json`](/message_erreur.json).
