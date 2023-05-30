@@ -208,13 +208,13 @@ curl -i \
 
 
 ### Résultats
-#### Positif
+#### ➕ Positif
 
 La requête du message EPCIS comme nous l'avons écris plus haut dans ce document nous retourne un code HTTP de 200, ce qui valide le succès de notre requête.
 
 Ceci peut être testé en exécutant le script `curl_request.sh` sur un terminal Bash.
 
-#### Négatif
+#### ➖ Négatif
 
 Pour tester l'intégrité des champs standardisés, nous avons modifier la valeur du champs disposition ("`sellable_not_accessible`" à  "`livraison reçu`")
 
