@@ -1,4 +1,7 @@
 ## 0. Contexte
+
+![](/diagrammes/contexte.svg)
+
 Dans ce POC nous prenons le role dans d'un logisticien d'un magasin d'habit (exemple: zara, h&m ...).
 
 Nous recevons une livraison contenant un t-shirt.

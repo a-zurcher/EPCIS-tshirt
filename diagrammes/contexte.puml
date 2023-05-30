@@ -1,0 +1,17 @@
+@startuml contexte
+Livreur --> Entrepot : Livraison colis
+Entrepot --> Logisticien : Réceptionne colis
+
+Logisticien --> Logisticien : Scan t-shirt
+
+Logisticien --> Serveur : Requête ""POST"" sur ""/capture""\lAvec corps: message EPCIS (JSON)
+
+alt Message correct
+    activate Serveur
+    Serveur --> Logisticien : Réponse "succès"\lCode HTTP ""200""
+else Message incorrect
+    Serveur --> Logisticien : Réponse "erreur"\lCorps: message d'erreur\lCode HTTP ""400""
+end
+
+deactivate Serveur
+@enduml
